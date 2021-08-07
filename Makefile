@@ -1,5 +1,14 @@
 CXX       := g++
-CXX_FLAGS := -Wall -Wextra
+CXX_FLAGS := -std=c++17       \
+             -pedantic        \
+             -Werror          \
+             -Wall            \
+             -W               \
+             -Wextra          \
+             -Wconversion     \
+             -Wcast-qual      \
+             -Wwrite-strings  \
+             -Wundef          \
 
 BIN     := bin
 SRC     := src
