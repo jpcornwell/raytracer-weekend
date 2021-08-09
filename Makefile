@@ -1,14 +1,15 @@
 CXX       := g++
-CXX_FLAGS := -std=c++17       \
-             -pedantic        \
-             -Werror          \
-             -Wall            \
-             -W               \
-             -Wextra          \
-             -Wconversion     \
-             -Wcast-qual      \
-             -Wwrite-strings  \
-             -Wundef          \
+CXX_FLAGS := -std=c++17             \
+             -pedantic              \
+             -Werror                \
+             -Wall                  \
+             -W                     \
+             -Wextra                \
+             -Wconversion           \
+             -Wcast-qual            \
+             -Wwrite-strings        \
+             -Wundef                \
+             -Wno-unused-parameter
 
 BIN     := bin
 SRC     := src
